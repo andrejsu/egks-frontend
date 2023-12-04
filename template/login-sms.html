@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-tooth">
+    <div class="pt-2 lg:max-w-[1200px] md:container md:mx-auto">
+      <header class="flex justify-between items-center md:px-0 py-8">
+        <a href="#">
+          <img class="h-12 w-fit object-contain" src="../assets/pic/new/home/EGKS-logo-header.png" />
+        </a>
+      </header>
+      <main>
+        <section>
+          <div class="w-fit mx-auto mt-8 mb-32">
+            <h2 class="mb-10 text-4xl font-bold">Вход в личный кабинет<br>пассажира</h2>
+            <div class="flex flex-col space-y-8">
+              <div class="flex flex-col space-y-2">
+                <div class="flex flex-col space-y-4">
+                  <input
+                    class="max-w-[600px] text-gray text-2xl pl-10 py-6 bg-white rounded-3xl"
+                    style="
+                      box-shadow: inset 3px 3px 7px 0px #88A5BF7A, -3px -3px 7px 0px #FFFFFF;
+                    "
+                    disabled
+                    value="+7 978 123 45 67"
+                  />
+                </div>
+                <div class="flex flex-col">
+                  <a class="text-gray font-light underline" href="#">Изменить номер телефона</a>
+                  <p class="text-gray text-xl">
+                    Запросить код повторно можно через <span class="font-semibold text-2xl">02:59</span>
+                  </p>
+                  <a class="hidden text-gray font-light underline" href="#">Отправить код повторно</a>
+                </div>
+              </div>
+              <div class="flex flex-col space-y-3">
+                <div class="flex flex-col space-y-4">
+                  <label class="text-2xl text-gray font-semibold">
+                    Введите код из SMS
+                  </label>
+                  <input
+                    class="max-w-[600px] text-gray text-2xl pl-10 py-6 bg-white rounded-3xl"
+                    style="
+                      box-shadow: inset 3px 3px 7px 0px #88A5BF7A, -3px -3px 7px 0px #FFFFFF;
+                    "
+                    placeholder="Код из смс"  
+                  />
+                </div>
+                <p class="text-gray text-xl">
+                  Нажимая кнопку «Продолжить», вы принимаете<br>
+                  <a class="text-gulf-water underline" href="">Политику обработки персональных данных</a>
+                </p>
+              </div>
+            </div>
+            <button
+              class="w-fit mt-10 py-5 px-[122px] text-white font-medium text-xl rounded-full uppercase"
+              style="
+                background: linear-gradient(296.18deg, #2EACC5 29.24%, #43C8C5 78.95%),
+                linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+              "
+            >
+              Продолжить
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer class="bg-black">
+      <div class="flex flex-col mx-auto lg:items-center py-8 lg:flex-row lg:justify-between lg:max-w-[1200px] md:py-12 lg:py-16 md:container">
+        <div class="flex flex-col space-y-5">
+          <div class="flex flex-col space-y-2">
+            <a href="#">
+              <img class="h-12 w-fit object-contain" src="../assets/pic/new/home/EGKS-logo-footer.png" />
+            </a>
+            <p class="text-white md:text-lg">Единая городская карта Севастополя</p>
+          </div>
+          <input
+            class="max-w-sm md:max-w-md pt-4 pb-3 pl-7 font-light rounded-2xl bg-black-input text-smoke"
+            style="box-shadow: 3px 3px 7px 0px #050714 inset, -3px -3px 7px 0px #2B2D3A inset;"
+            placeholder="Поиск по сайту"
+          />
+          <div class="flex flex-col text-white">
+            <p class="md:text-xl">Служба поддержки пользователей ЕГКС:</p>
+            <p class="font-bold text-4xl">+ 7 978 73–00–800</p>
+            <p class="font-light">Ежедневно с 9:00 до 18:00. Перерыв с 13:00 до 14:00</p>
+          </div>
+        </div>
+        <div class="flex space-x-4 mt-8 lg:mt-0 md:space-x-20">
+          <ul class="flex flex-col space-y-3 text-white underline cursor-pointer">
+            <li>Частые вопросы</li>
+            <li>Пополнить карту</li>
+            <li>Перенос баланса карты</li>
+            <li>Фискальный чек</li>
+            <li>Личный кабинет</li>
+            <li>Пункты продаж</li>
+            <li>Новости</li>
+          </ul>
+          <ul class="flex flex-col space-y-3 text-white underline	cursor-pointer">
+            <li>Тарифы перевозчиков</li>
+            <li>Тарифы перевозчиков</li>
+            <li>Проездной билет</li>
+            <li>Программа лояльности</li>
+            <li>Нормативная база</li>
+            <li>Контакты</li>
+            <li>Мобильное приложение</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

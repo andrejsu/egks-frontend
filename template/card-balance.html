@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-tooth">
+    <div class="pt-2 lg:max-w-[1200px] md:container md:mx-auto">
+      <header class="mb-11">
+        <div class="flex justify-between items-center md:px-0 py-8">
+          <a href="#">
+            <img class="h-12 w-fit object-contain" src="../assets/pic/new/home/EGKS-logo-header.png" />
+          </a>
+          <a class="py-3 px-8 bg-black text-white rounded-xl text-lg" href="#">Войти</a>
+        </div>
+        <navbar>
+          <ul class="flex pl-[206px] space-x-4 items-center text-black text-xl">
+            <li>
+              <a href="#">Главная</a>
+            </li>
+            <li>
+              <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.8678 5.67956L15.3225 1.13417C15.1592 0.943509 14.8722 0.921283 14.6816 1.0846C14.4909 1.24788 14.4687 1.53483 14.632 1.72549C14.6472 1.74326 14.6638 1.75986 14.6816 1.77506L18.4497 5.54773H0.454523C0.203512 5.54773 0 5.75124 0 6.00229C0 6.25334 0.203512 6.45681 0.454523 6.45681H18.4497L14.6816 10.2249C14.4909 10.3882 14.4687 10.6751 14.632 10.8658C14.7953 11.0565 15.0822 11.0787 15.2729 10.9154C15.2907 10.9001 15.3073 10.8836 15.3225 10.8658L19.8679 6.32041C20.0441 6.14318 20.0441 5.85686 19.8678 5.67956Z" fill="black"/>
+              </svg>
+            </li>
+            <li class="font-medium text-gulf-water">
+              Пополнить баланс
+            </li>
+          </ul>
+        </navbar>
+      </header>
+      <main>
+        <section>
+          <div class="mx-auto w-fit mb-32">
+            <h2 class="mb-10 text-4xl font-bold">Пополнить баланс</h2>
+            <div class="relative flex flex-col space-y-8">
+              <img class="absolute left-[-320px] top-0" src="../assets/pic/card_random.png" />
+              <div class="flex flex-col space-y-4">
+                <label class="text-2xl text-gray font-semibold">
+                  Номер карты
+                </label>
+                <input
+                  class="max-w-[600px] text-gray text-2xl pl-10 py-6 bg-white rounded-3xl"
+                  style="
+                    box-shadow: inset 3px 3px 7px 0px #88A5BF7A, -3px -3px 7px 0px #FFFFFF;
+                  "
+                  placeholder="Введите номер карты"  
+                />
+              </div>
+              <div class="flex flex-col space-y-3">
+                <div class="flex flex-col space-y-4">
+                  <label class="text-2xl text-gray font-semibold">
+                    Сумма пополнения
+                  </label>
+                  <input
+                    class="max-w-[600px] text-gray text-2xl pl-10 py-6 bg-white rounded-3xl"
+                    style="
+                      box-shadow: inset 3px 3px 7px 0px #88A5BF7A, -3px -3px 7px 0px #FFFFFF;
+                    "
+                    placeholder="Не менее 1 ₽"  
+                  />
+                </div>
+                <p class="font-light text-gray">
+                  Зачисление средств на карту происходит спустя 2 часа с момента оплаты<br>
+                  за проезд. При ошибочном вводе номера карты возврат денег не производится.
+                </p>
+              </div>
+              <div class="flex flex-col space-y-4">
+                <label class="text-2xl text-gray font-semibold">
+                  Способ оплаты
+                </label>
+                <div
+                  class="px-10 py-5 bg-tooth rounded-2xl divide-y"
+                  style="
+                    box-shadow: 3px 3px 7px 0px #88A5BF7A, -3px -3px 7px 0px #FFFFFF;
+                  "
+                >
+                  <ul>
+                    <li class="flex items-center py-6 space-x-10">
+                      <div
+                        class="w-10 h-10 flex items-center justify-center bg-light-gray rounded-full cursor-pointer"
+                        style="
+                          box-shadow: 3px 3px 7px 0px #88A5BF7A, -3px -3px 7px 0px #FFFFFF;
+                        "
+                      >
+                        +
+                      </div>
+                      <p class="text-gray text-2xl cursor-pointer">Привязать новую</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="flex flex-col space-y-4">
+                <label class="text-2xl text-gray font-semibold">
+                  Направить чек
+                </label>
+                <input
+                  class="max-w-[600px] text-gray text-2xl pl-10 py-6 bg-white rounded-3xl"
+                  style="
+                    box-shadow: inset 3px 3px 7px 0px #88A5BF7A, -3px -3px 7px 0px #FFFFFF;
+                  "
+                  placeholder="Email"  
+                />
+              </div>
+            </div>
+            <button
+              class="w-fit mt-10 py-5 px-[132px] text-white font-medium text-xl rounded-full uppercase"
+              style="
+                background: linear-gradient(296.18deg, #2EACC5 29.24%, #43C8C5 78.95%),
+                linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+              "
+              disabled
+            >
+              Пополнить
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer class="bg-black">
+      <div class="flex flex-col mx-auto lg:items-center py-8 lg:flex-row lg:justify-between lg:max-w-[1200px] md:py-12 lg:py-16 md:container">
+        <div class="flex flex-col space-y-5">
+          <div class="flex flex-col space-y-2">
+            <a href="#">
+              <img class="h-12 w-fit object-contain" src="../assets/pic/new/home/EGKS-logo-footer.png" />
+            </a>
+            <p class="text-white md:text-lg">Единая городская карта Севастополя</p>
+          </div>
+          <input
+            class="max-w-sm md:max-w-md pt-4 pb-3 pl-7 font-light rounded-2xl bg-black-input text-smoke"
+            style="box-shadow: 3px 3px 7px 0px #050714 inset, -3px -3px 7px 0px #2B2D3A inset;"
+            placeholder="Поиск по сайту"
+          />
+          <div class="flex flex-col text-white">
+            <p class="md:text-xl">Служба поддержки пользователей ЕГКС:</p>
+            <p class="font-bold text-4xl">+ 7 978 73–00–800</p>
+            <p class="font-light">Ежедневно с 9:00 до 18:00. Перерыв с 13:00 до 14:00</p>
+          </div>
+        </div>
+        <div class="flex space-x-4 mt-8 lg:mt-0 md:space-x-20">
+          <ul class="flex flex-col space-y-3 text-white underline cursor-pointer">
+            <li>Частые вопросы</li>
+            <li>Пополнить карту</li>
+            <li>Перенос баланса карты</li>
+            <li>Фискальный чек</li>
+            <li>Личный кабинет</li>
+            <li>Пункты продаж</li>
+            <li>Новости</li>
+          </ul>
+          <ul class="flex flex-col space-y-3 text-white underline	cursor-pointer">
+            <li>Тарифы перевозчиков</li>
+            <li>Тарифы перевозчиков</li>
+            <li>Проездной билет</li>
+            <li>Программа лояльности</li>
+            <li>Нормативная база</li>
+            <li>Контакты</li>
+            <li>Мобильное приложение</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
